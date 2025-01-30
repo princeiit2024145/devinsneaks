@@ -1,0 +1,60 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    background-image: URL(F7.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.login-container {
+    background: white;
+    width: 350px; /* Increased width */
+    padding: 30px; /* Increased padding */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.logo {
+    width: 120px; /* Increased logo size */
+    margin-bottom: 15px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    font-size: 16px; /* Increased font size */
+    margin: 12px 0;
+    padding: 12px; /* Increased padding */
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    width: 100%;
+    padding: 12px; /* Increased button size */
+    font-size: 16px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.google-login {
+    background: #db4437;
+    font-size: 16px;
+    padding: 12px;
+}
+
+/* Add hover effect */
+button:hover {
+    opacity: 0.9;
+}

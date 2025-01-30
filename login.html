@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-container">
+        <img src="img-DS.jpg" alt="Company Logo" class="logo">
+        <h2>Login</h2>
+        <form action="#" method="POST">
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+        <p>Or</p>
+        <button class="google-login" onclick="googleLogin()">Login with Google</button>
+    </div>
+
+    <script>
+        function googleLogin() {
+            window.location.href = "https://accounts.google.com/signin";
+        }
+    </script>
+</body>
+</html>
